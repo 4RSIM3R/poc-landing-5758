@@ -36,7 +36,7 @@ export const Value = () => {
           <h2 className="text-4xl font-semibold mb-8">
             Why Choose Our Tailored Strategies?
           </h2>
-          {Array.from({ length: 3 }).map((_, index) => (
+          {Array.from({ length: 3 }).map((_, __) => (
             <div className="p-6 border border-[#374151] rounded-md my-4">
               <h1 className="text-2xl text-[#2FDDAD]">Business Consulting</h1>
               <p className="text-gray-300 mt-4">

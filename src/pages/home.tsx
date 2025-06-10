@@ -65,7 +65,7 @@ export const Home = () => {
           </p>
         </div>
         <div className="grid grid-cols-12 mt-16 gap-4">
-          {Array.from({ length: 3 }).map((_, index) => (
+          {Array.from({ length: 3 }).map((_, __) => (
             <div className="col-span-4 relative group overflow-hidden rounded-lg">
               <img
                 src="/assets/net.svg"
@@ -114,7 +114,7 @@ export const Home = () => {
           </p>
         </div>
         <div className="grid grid-cols-12 gap-4 mt-16">
-          {Array.from({ length: 8 }).map((_, index) => (
+          {Array.from({ length: 8 }).map((_, __) => (
             <div className="col-span-12 sm:col-span-3 border border-[#374151] rounded-md p-8 flex flex-col gap-4 items-start justify-between">
               <div className="flex flex-col gap-4">
                 <div className="size-11 bg-[#2FDDAD] rounded-md flex flex-col justify-center items-center">
@@ -149,7 +149,7 @@ export const Home = () => {
           </p>
         </div>
         <div className="grid grid-cols-12 gap-4 mt-16">
-          {Array.from({ length: 11 }).map((_, index) => (
+          {Array.from({ length: 11 }).map((_, __) => (
             <div className="col-span-12 sm:col-span-3 border border-[#374151] rounded-md p-8 flex items-center justify-center">
               <img src="/assets/grab.svg" className="h-12 w-auto" alt="" />
             </div>

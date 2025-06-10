@@ -35,7 +35,7 @@ export const Speciality = () => {
           Key Components of 360 Strategy
         </h1>
         <div className="grid grid-cols-12 gap-4 mt-8 mb-32">
-          {Array.from({ length: 3 }).map((_, index) => (
+          {Array.from({ length: 3 }).map((_, __) => (
             <div className="col-span-12 sm:col-span-4 border border-[#374151] rounded-md p-8 flex flex-col gap-4">
               <LayoutGrid className="text-[#2FDDAD] size-10 " />
               <h1 className="text-xl font-semibold mt-14">
