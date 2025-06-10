@@ -1,21 +1,27 @@
 import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 import { Outlet } from "react-router";
+import { useLocation } from "react-router";
 
 export const Layout = () => {
+  const location = useLocation();
+  const currentRoute = location.pathname;
+
   const navItems = [
     {
       title: "Home",
       href: "/",
-      active: true,
+      active: currentRoute == "/",
     },
     {
       title: "Article",
       href: "/article",
+      active: currentRoute == "/article",
     },
     {
       title: "Careers",
-      href: "/careers",
+      href: "/career",
+      active: currentRoute == "/career",
     },
   ];
 
