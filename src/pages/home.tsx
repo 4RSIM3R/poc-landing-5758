@@ -67,20 +67,15 @@ export const Home = () => {
         <div className="grid grid-cols-12 mt-16 gap-4">
           {Array.from({ length: 3 }).map((_, index) => (
             <div className="col-span-4 relative group overflow-hidden rounded-lg">
-              {/* Background image - positioned absolutely */}
               <img
                 src="/assets/net.svg"
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover z-0"
               />
-
-              {/* Gradient overlay - positioned absolutely */}
               <div
                 className="absolute inset-0 bg-gradient-to-t from-[#242424] to-transparent 
                      group-hover:from-[#2FDDAD]/30 transition-colors duration-300 z-10"
               ></div>
-
-              {/* Content - positioned relatively */}
               <div className="relative z-20 px-8 py-12 flex flex-col items-center justify-center h-full">
                 <div className="size-11 bg-[#2FDDAD] rounded-md flex items-center justify-center">
                   <LayoutGrid className="size-6 text-white" />
@@ -97,7 +92,7 @@ export const Home = () => {
                   “just okay.”
                 </p>
                 <Link
-                  to="/"
+                  to="/value/tailored-strategies"
                   className="flex items-center gap-2 text-[#2FDDAD] hover:text-[#2FDDAD]/80 mt-4"
                 >
                   Learn More
@@ -133,7 +128,7 @@ export const Home = () => {
                 </p>
               </div>
               <Link
-                to="/"
+                to="/speciality/360-strategy"
                 className="flex items-center gap-2 text-[#2FDDAD] hover:text-[#2FDDAD]/80"
               >
                 Learn More

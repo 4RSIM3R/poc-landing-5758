@@ -32,7 +32,7 @@ export function Navbar({
 
   if (isMobile) {
     return (
-      <div className="fixed top-6 left-0 right-0 z-50 mx-auto w-full max-w-sm px-4">
+      <div className="fixed top-6 left-0 right-0 z-50 mx-auto w-full max-w-sm">
         <div
           className={cn(
             "flex h-14 items-center justify-between rounded-full bg-black px-4 backdrop-blur-sm",
