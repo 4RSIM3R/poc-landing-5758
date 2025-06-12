@@ -8,7 +8,7 @@ export const Speciality = () => {
         className="flex flex-col items-center justify-center gap-4 max-w-md mx-auto"
         id="banner"
       >
-        <h1 className="font-semibold text-[#2FDDAD]">Our Specialties</h1>
+        <h1 className="font-semibold text-brand-500">Our Specialties</h1>
         <h1 className="text-4xl font-semibold">360 Strategy</h1>
         <p className="text-base text-gray-300 text-center">
           Full-circle thinking for brands that want to grow smart.
@@ -37,7 +37,7 @@ export const Speciality = () => {
         <div className="grid grid-cols-12 gap-4 mt-8 mb-32">
           {Array.from({ length: 3 }).map((_, __) => (
             <div className="col-span-12 sm:col-span-4 border border-[#374151] rounded-md p-8 flex flex-col gap-4">
-              <LayoutGrid className="text-[#2FDDAD] size-10 " />
+              <LayoutGrid className="text-brand-500 size-10 " />
               <h1 className="text-xl font-semibold mt-14">
                 Business Consulting
               </h1>
@@ -56,7 +56,7 @@ export const Speciality = () => {
         <div className="grid grid-cols-12 gap-4 mt-16">
           {Array.from({ length: 4 }).map((_, index) => (
             <div className="col-span-12 sm:col-span-3 flex flex-col items-center justify-center gap-4">
-              <div className="rounded-full bg-[#2FDDAD] p-4 text-white size-14 flex flex-col justify-center items-center">
+              <div className="rounded-full bg-brand-500 p-4 text-white size-14 flex flex-col justify-center items-center">
                 <span className="text-xl font-semibold">0{index + 1}</span>
               </div>
               <h1 className="text-xl text-center">Holistic Perspective</h1>
@@ -82,7 +82,7 @@ export const Speciality = () => {
             <p className="text-4xl font-semibold text-white mb-4 max-w-sm">
               Ready to Transform Your Business?
             </p>
-            <Button className="rounded-full bg-emerald-400 text-black hover:bg-emerald-300">
+            <Button className="rounded-full bg-brand-500 text-black hover:bg-brand-500/80">
               Let's Talk <ArrowRight className="ml-1 h-4 w-4" />
             </Button>
           </div>

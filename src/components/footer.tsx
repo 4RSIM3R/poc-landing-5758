@@ -54,7 +54,7 @@ export const Footer = () => {
               <span>+62 87880 8089 80</span>
             </div>
           </div>
-          <Button className="rounded-full bg-emerald-400 text-black hover:bg-emerald-300">
+          <Button className="rounded-full bg-brand-500 text-black hover:bg-brand-500/80">
             Let's Talk <ArrowRight className="ml-1 h-4 w-4" />
           </Button>
         </div>

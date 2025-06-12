@@ -39,10 +39,10 @@ export const Home = () => {
             </div>
             <div className="col-span-12 sm:col-span-6 flex flex-col justify-center gap-4">
               <h1 className="text-4xl font-semibold">
-                Say Hello to <span className="text-[#2FDDAD]">Your Next</span>{" "}
+                Say Hello to <span className="text-brand-500">Your Next</span>{" "}
                 Growth Partner
               </h1>
-              <h1 className="text-3xl text-[#2FDDAD]">
+              <h1 className="text-3xl text-brand-500">
                 (a.k.a Maju Mapan – yes, we love wordplay)
               </h1>
               <p className="text-gray-300">
@@ -57,7 +57,7 @@ export const Home = () => {
       <div className="max-w-6xl mx-auto py-16" id="what-we-stand-for">
         <div className="flex flex-col items-center justify-center gap-4 max-w-sm mx-auto">
           <h1 className="text-4xl font-semibold">
-            What We <span className="text-[#2FDDAD]">Stand for</span>
+            What We <span className="text-brand-500">Stand for</span>
           </h1>
           <p className="text-base text-gray-300 text-center">
             Three beliefs guide everything we do — and yes, they make a
@@ -66,7 +66,7 @@ export const Home = () => {
         </div>
         <div className="grid grid-cols-12 mt-16 gap-4">
           {Array.from({ length: 3 }).map((_, __) => (
-            <div className="col-span-4 relative group overflow-hidden rounded-lg">
+            <div className="col-span-12 sm:col-span-4 relative group overflow-hidden rounded-lg">
               <img
                 src="/assets/net.svg"
                 alt=""
@@ -74,10 +74,10 @@ export const Home = () => {
               />
               <div
                 className="absolute inset-0 bg-gradient-to-t from-[#242424] to-transparent 
-                     group-hover:from-[#2FDDAD]/30 transition-colors duration-300 z-10"
+                     group-hover:from-brand-500/30 transition-colors duration-300 z-10"
               ></div>
               <div className="relative z-20 px-8 py-12 flex flex-col items-center justify-center h-full">
-                <div className="size-11 bg-[#2FDDAD] rounded-md flex items-center justify-center">
+                <div className="size-11 bg-brand-500 rounded-md flex items-center justify-center">
                   <LayoutGrid className="size-6 text-white" />
                 </div>
                 <h1 className="text-xl font-semibold mt-8">
@@ -93,7 +93,7 @@ export const Home = () => {
                 </p>
                 <Link
                   to="/value/tailored-strategies"
-                  className="flex items-center gap-2 text-[#2FDDAD] hover:text-[#2FDDAD]/80 mt-4"
+                  className="flex items-center gap-2 text-brand-500 hover:text-brand-500/80 mt-4"
                 >
                   Learn More
                   <ArrowRight className="size-4" />
@@ -106,7 +106,7 @@ export const Home = () => {
       <div className="max-w-6xl mx-auto py-16" id="our-specialties">
         <div className="flex flex-col items-center justify-center gap-4 max-w-md mx-auto">
           <h1 className="text-4xl font-semibold">
-            Our <span className="text-[#2FDDAD]">Specialties</span>
+            Our <span className="text-brand-500">Specialties</span>
           </h1>
           <p className="text-base text-gray-300 text-center">
             We build your brand across every platform — creating bold, cohesive
@@ -115,21 +115,21 @@ export const Home = () => {
         </div>
         <div className="grid grid-cols-12 gap-4 mt-16">
           {Array.from({ length: 8 }).map((_, __) => (
-            <div className="col-span-12 sm:col-span-3 border border-[#374151] rounded-md p-8 flex flex-col gap-4 items-start justify-between">
+            <div className="col-span-12 sm:col-span-3 border h-[400px] border-[#374151] rounded-md p-8 flex flex-col gap-4 items-start justify-between">
               <div className="flex flex-col gap-4">
-                <div className="size-11 bg-[#2FDDAD] rounded-md flex flex-col justify-center items-center">
+                <div className="size-11 bg-brand-500 rounded-md flex flex-col justify-center items-center">
                   <LayoutGrid className="size-6 text-white" />
                 </div>
                 <h1 className="text-xl font-semibold">360 Strategy </h1>
                 <p className="text-base text-gray-300">
-                  Full-circle thinking for brands that want to grow smart.From
+                  Full-circle thinking for brands that want to grow smart. From
                   comprehensive audit to integrated digital and KOL strategy, we
                   build the blueprint that moves the needle.
                 </p>
               </div>
               <Link
                 to="/speciality/360-strategy"
-                className="flex items-center gap-2 text-[#2FDDAD] hover:text-[#2FDDAD]/80"
+                className="flex items-center gap-2 text-brand-500 hover:text-brand-500/80"
               >
                 Learn More
                 <ArrowRight className="size-4" />
@@ -141,7 +141,7 @@ export const Home = () => {
       <div className="max-w-6xl mx-auto py-16" id="our-works">
         <div className="flex flex-col items-center justify-center gap-4 max-w-2xl mx-auto">
           <h1 className="text-4xl font-semibold">
-            Our <span className="text-[#2FDDAD]">Works</span>
+            Our <span className="text-brand-500">Works</span>
           </h1>
           <p className="text-base text-gray-300 text-center">
             Smart strategies. Bold executions. Measurable wins. That’s how we
@@ -155,7 +155,9 @@ export const Home = () => {
             </div>
           ))}
           <div className="col-span-12 sm:col-span-3 border border-[#374151] rounded-md p-8 flex items-center justify-center">
-            <p className="text-xl text=[]">Plus more names we’re proud of...</p>
+            <p className="text-xl text-brand-500">
+              Plus more names we’re proud of...
+            </p>
           </div>
         </div>
       </div>
@@ -188,7 +190,7 @@ export const Home = () => {
             <Label className="">Message</Label>
             <Textarea className="border border-[#374151]" />
           </div>
-          <Button className="w-full rounded-full bg-emerald-400 text-black hover:bg-emerald-300">
+          <Button className="w-full rounded-full bg-brand-500 text-black hover:bg-brand-500/80">
             Let's Talk <ArrowRight className="ml-1 h-4 w-4" />
           </Button>
         </form>

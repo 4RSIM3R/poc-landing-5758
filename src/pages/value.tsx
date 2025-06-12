@@ -11,7 +11,7 @@ export const Value = () => {
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative z-10 pt-32 max-w-6xl mx-auto px-4">
-          <p className="text-2xl text-[#2FDDAD]">Our Service</p>
+          <p className="text-2xl text-brand-500">Our Service</p>
           <h1 className="text-4xl font-semibold mt-4 mb-2">
             Tailored Strategies
           </h1>
@@ -38,7 +38,7 @@ export const Value = () => {
           </h2>
           {Array.from({ length: 3 }).map((_, __) => (
             <div className="p-6 border border-[#374151] rounded-md my-4">
-              <h1 className="text-2xl text-[#2FDDAD]">Business Consulting</h1>
+              <h1 className="text-2xl text-brand-500">Business Consulting</h1>
               <p className="text-gray-300 mt-4">
                 We analyze your operations and market position to develop
                 strategies that enhance performance and competitiveness.
@@ -76,7 +76,7 @@ export const Value = () => {
             <p className="text-4xl font-semibold text-white mb-4 max-w-sm">
               Ready to Transform Your Business?
             </p>
-            <Button className="rounded-full bg-emerald-400 text-black hover:bg-emerald-300">
+            <Button className="rounded-full bg-brand-500 text-black hover:bg-brand-500/80">
               Let's Talk <ArrowRight className="ml-1 h-4 w-4" />
             </Button>
           </div>
