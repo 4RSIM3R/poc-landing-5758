@@ -29,7 +29,7 @@ export const CareerList = () => {
             <div className="col-span-12 sm:col-span-6">
               {Array.from({ length: 3 }).map((_, __) => (
                 <Link to="/career/design">
-                  <div className="bg-[#111827] rounded-md p-8 grid grid-cols-12 gap-4 mb-8">
+                  <div className="bg-gray-900 rounded-md p-8 grid grid-cols-12 gap-4 mb-8">
                     <div className="col-span-12">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-2">

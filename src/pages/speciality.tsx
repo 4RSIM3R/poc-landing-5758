@@ -49,7 +49,7 @@ export const Speciality = () => {
           ))}
         </div>
       </div>
-      <div className="bg-[#111827] w-full p-20" id="why-work">
+      <div className="bg-gray-900 w-full p-20" id="why-work">
         <h1 className="text-4xl font-semibold text-center">
           Why 360 Strategy Works
         </h1>
